@@ -4,7 +4,7 @@ import unittest
 import ultidate.ultidate as ult
 
 
-class FlaskrTestCase(unittest.TestCase):
+class UltimateTestCase(unittest.TestCase):
     def setUp(self):
         # self.db_fd, ultidate.app.config['DATABASE'] = tempfile.mkstemp()
         ult.app.testing = True
